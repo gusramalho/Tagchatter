@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>TagChatter</title>
 
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Lato" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <title>TagChatter</title>
 
-    <script src="index.js"></script>
-  </head>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <body class="wrapper">
-    <aside class="sidebar">
-      <div class="sidebar__logo">
-        <img src="images/logo.png" />
+  <script src="index.js"></script>
+</head>
+
+<body class="wrapper">
+  <aside class="sidebar">
+    <div class="sidebar__logo">
+      <img src="images/logo.png" />
+    </div>
+  </aside>
+
+  <div class="content">
+    <header class="header">
+      <h1 class="header__title">#tagchatter</h1>
+
+      <div class="header__parrots-count">
+        <span class="header__title" id="parrots-counter">-</span>
       </div>
-    </aside>
-
-    <div class="content">
-      <header class="header">
-        <h1 class="header__title">#tagchatter</h1>
-
-        <div class="header__parrots-count">
-          <span class="header__title" id="parrots-counter">-</span>
-        </div>
-      </header>
-      
-        
-         <ul class="messages">
+    </header>
 
 
+    <ul class="messages">
+    </ul>
+
+    <div class="push"></div>
+
+    <div class="form">
+      <img id="userImage">
+      <input id="msg" /><img src="images/send_icon.svg" id="btnEnviar">
+    </div>
+
+  </div>
 
 
-        </ul>
 
-          
-          <form action="">
-              <img id="userImage">
-              <input id="m" autocomplete="off"/><button id="btnEnviar">Enviar</button>
-          </form>
-        
+</body>
 
-       
-      </div>
-    
-  </body>
 </html>

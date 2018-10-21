@@ -53,10 +53,11 @@ html {
 
 .messages li{
   list-style: none;
+  
 }
 
 .parrotMsg{
-  background-color: #efe3d7;
+  background-color: #FFFAE7;
   list-style: none;
 }
 
@@ -67,7 +68,7 @@ html {
 
 .avatar {
   float: left;
-  max-width: 40px;
+  max-width: 34px;
   width: 100%;
   margin-right: 20px;
   border-radius: 10px;
@@ -84,31 +85,38 @@ html {
 
 
 
-form { 
-  background-color: #d1d1d1;
-  padding: 10px; 
-  position: fixed; 
+.form { 
+  background-color: #EFEFEF;
+  padding: 24px; 
+  position: fixed;
   bottom: 0; 
   width: 100%; 
+  
 }
 
-form img {
+.form img {
   float: left;
-  max-width: 60px;
+  max-width: 52px;
   width: 100%;
   margin-right: 20px;
   border-radius: 10px;
+
 }
 
-form input {
+.form input {
    border: 0;
-   padding: 10px;
-   width: 60%; 
+   border-radius: 6px;
+   font-size: 14px;
+   padding: 16px 15px 19px 15px;
+   width: 80%; 
    margin-right: .5%; 
   }
 
-form button { 
-  width: 9%;
-  background: rgb(130, 224, 255);
-  border: none; 
-  padding: 5px; }
+  #btnEnviar{
+    float: none;
+  }
+
+  .push{
+    height: 100px;
+  }
+
